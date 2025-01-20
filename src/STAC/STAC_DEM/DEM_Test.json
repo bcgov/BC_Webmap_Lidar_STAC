@@ -1,0 +1,69 @@
+{
+  "type": "Catalog",
+  "id": "DEM_Test",
+  "stac_version": "1.0.0",
+  "description": "This catalog is a basic demonstration catalog utilizing using nine Digital Elevation Models, in the cloud optimized geotif(COG) format, that overlap with the point cloud test",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./DEM_Test.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://nrs.objectstore.gov.bc.ca/cloudgistest/STAC_DEM/Catalog/DEM_Test.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o018_xli1m_utm10_2018_2_cog/bc_092o018_xli1m_utm10_2018_2_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o018_xli1m_utm10_2018_cog/bc_092o018_xli1m_utm10_2018_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o019_xli1m_utm10_2018_2_cog/bc_092o019_xli1m_utm10_2018_2_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o019_xli1m_utm10_2018_cog/bc_092o019_xli1m_utm10_2018_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o020_xli1m_utm10_2018_2_cog/bc_092o020_xli1m_utm10_2018_2_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o020_xli1m_utm10_2018_cog/bc_092o020_xli1m_utm10_2018_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o028_xli1m_utm10_2018_cog/bc_092o028_xli1m_utm10_2018_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o029_xli1m_utm10_2019_cog/bc_092o029_xli1m_utm10_2019_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./bc_092o030_xli1m_utm10_2018_cog/bc_092o030_xli1m_utm10_2018_cog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COG-DEM-Test/collection.json",
+      "type": "application/json",
+      "title": "BC-DEM"
+    }
+  ]
+}

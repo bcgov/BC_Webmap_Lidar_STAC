@@ -1,0 +1,43 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "bc_082e002_1_2_1_xyes_8_utm11_2019",
+    "properties": {
+      "datetime": "2019-07-28T10:38:31Z",
+      "start_datetime": "2019-07-28T10:38:31Z",
+      "end_datetime": "2019-07-28T11:15:28Z",
+      "las:version": "1.4",
+      "las:point_data_format": 6,
+      "las:point_count": 12568291,
+      "las:scale_x": 0.01,
+      "las:scale_y": 0.01,
+      "las:scale_z": 0.01,
+      "las:offset_x": 0.0,
+      "las:offset_y": 0.0,
+      "las:offset_z": 0.0,
+      "las:crs": "NAD83(CSRS) / UTM zone 11N + CGVD2013"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [300151.0, 5431033.85],
+          [300151.0, 5432444.86],
+          [300746.43, 5432444.86],
+          [300746.43, 5431033.85],
+          [300151.0, 5431033.85]
+        ]
+      ]
+    },
+    "links": [],
+    "assets": {
+      "data": {
+        "href": "bc_082e002_1_2_1_xyes_8_utm11_2019.laz",
+        "type": "application/octet-stream",
+        "title": "LiDAR Data File"
+      }
+    },
+    "bbox": [300151.0, 5431033.85, 300746.43, 5432444.86],
+    "stac_extensions": []
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STAC Layer Map Example</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css"/>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { width: 100vw; height: 100vh; }
+        #upload-box {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
+        #map {
+            height: 100vh; /* 100% of the viewport height */
+            width: 100vw;  /* 100% of the viewport width */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="upload-box">
+        <input type="file" id="file-input" accept=".zip,.json" multiple>
+        <!--<button id="submit-btn">Submit</button>-->
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shpjs/3.6.3/shp.min.js"></script> 
+
+    
+    <!-- Include STAC Layer script here when it's available  -->
+    <script src="app.js"></script>
+</body>
+</html>
